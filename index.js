@@ -48,14 +48,14 @@ client.on("interactionCreate", (interaction) => {
     if (interaction.commandName === "news") {
       const msgEmbed = new MessageEmbed()
         .setColor("#0099ff")
-        .setTitle("Voici la mise a jour !")
+        .setTitle("Voici les mises à jours !")
         .setURL("https://youtube.com")
         .setAuthor({
           name: "By Ven0os",
           iconURL: "https://i.imgur.com/AfFp7pu.png",
           url: "https://discord.js.org",
         })
-        .setDescription("Mise a jour : ////")
+        .setDescription("Patch 0.1 : ////")
         .setThumbnail("https://i.imgur.com/AfFp7pu.png")
         .addFields(
           { name: "Version Bêta", value: "******" },
